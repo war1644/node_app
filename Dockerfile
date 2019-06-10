@@ -6,6 +6,6 @@ ENV TIMEZONE Asia/Shanghai
 
 # 一些工作目录准备
 RUN apk add nodejs npm python make g++ && \
-    npm gulp-cli -g
+    npm install gulp-cli -g
 
 CMD ["bash"]
