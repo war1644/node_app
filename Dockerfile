@@ -9,4 +9,4 @@ RUN apk add nodejs npm python make g++ && \
     npm config set registry https://registry.npm.taobao.org && \
     npm install -g gulp-cli   
 COPY 10915.conf /etc/nginx/conf.d/    
-CMD ["bash"]
+CMD ["/shell/start.sh"]
