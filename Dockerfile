@@ -7,8 +7,7 @@ ENV TIMEZONE Asia/Shanghai
 # 一些工作目录准备
 RUN apk add nodejs npm python make g++ && \
     npm install -g cnpm --registry=https://registry.npm.taobao.org && \
-    cnpm install gulp-cli -g && \
-    cnpm i apicloud-cli -g
+    cnpm install gulp-cli -g
     
     
 CMD ["bash"]
